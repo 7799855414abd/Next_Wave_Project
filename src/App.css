@@ -1,0 +1,16 @@
+/* App.css */
+
+/* Add transition effect to fade in and out */
+.route-transition {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.route-transition-exit {
+  opacity: 1;
+}
+
+.route-transition-exit-active {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
